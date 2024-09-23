@@ -2,10 +2,12 @@ import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import Portfoe1 from "./Portfoe1";
 import Portfoe2 from "./Portfoe2";
+import Portfoe3 from "./Portfoe3";
+
 import Edwardtwo from "../assets/Edwardtwo.png";
 import Marcustwo from "../assets/Marcustwo.png";
 import Lola from "../assets/Lola.png";
-import Mushthaq from "../assets/Mushthaq.png";
+import Tylatwo from "../assets/Tylatwo.png";
 import Lizzotwo from "../assets/Lizzotwo.png";
 import Jeremiahtwo from "../assets/Jeremiahtwo.png";
 import Christwo from "../assets/Christwo.png";
@@ -103,20 +105,20 @@ function Create() {
              sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 hover:scale-105 duration-300">
               <img
                 class="block mx-auto h-24 rounded-full bg-green-300 sm:mx-0 sm:shrink-0"
-                src={Mushthaq}
+                src={Tylatwo}
                 alt="Woman's Face"
               />
               <div class="text-center space-y-2 sm:text-left">
                 <div class="space-y-0.5">
-                  <p class="text-lg text-black font-semibold">Mushthaq</p>
-                  <p class="text-green-500 font-medium">Graphic Designer</p>
+                  <p class="text-lg text-black font-semibold">  Tyla</p>
+                  <p class="text-green-500 font-medium">Software Developer</p>
                 </div>
-                <Link to="/Portfoe1">
+                <Link to="/Portfoe3">
                   <button
                     type="submit"
                     class="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
                   >
-                    Contact
+                   Portfolio
                   </button>{" "}
                 </Link>
               </div>
@@ -140,7 +142,7 @@ function Create() {
                     type="submit"
                     class="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
                   >
-                    Contact
+                    Portfolio
                   </button>{" "}
                 </Link>
               </div>
@@ -164,7 +166,7 @@ function Create() {
                     type="submit"
                     class="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
                   >
-                    Contact
+                    Portfolio
                   </button>{" "}
                 </Link>
               </div>
@@ -186,7 +188,7 @@ function Create() {
                     type="submit"
                     class="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
                   >
-                    Contact
+                    Portfolio
                   </button>{" "}
                 </Link>
               </div>
@@ -210,7 +212,7 @@ function Create() {
                     type="submit"
                     class="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
                   >
-                    Contact
+                    Portfolio
                   </button>{" "}
                 </Link>
               </div>
@@ -232,7 +234,7 @@ function Create() {
                     type="submit"
                     class="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
                   >
-                    Contact
+                    Portfolio
                   </button>{" "}
                 </Link>
               </div>
@@ -254,7 +256,7 @@ function Create() {
                     type="submit"
                     class="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
                   >
-                    Contact
+                    Portfolio
                   </button>{" "}
                 </Link>
               </div>
