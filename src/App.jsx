@@ -22,7 +22,7 @@ import Navbar from './components/Navbar.jsx'
 import Form from './components/Form.jsx';
 import Final from './components/Final.jsx';
 import Portfoe3 from "./components/Portfoe3.jsx"
-import Aboutme2 from './components/Aboutme2.jsx';
+import Aboutme2 from "./components/Aboutme2.jsx";
 import Aboutme3 from './components/Aboutme3.jsx';
 
 import ContactMe2 from './components/ContactMe2.jsx';
