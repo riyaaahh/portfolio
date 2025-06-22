@@ -3,7 +3,7 @@ import Marcus from "./../assets/Marcus.png";
 import { ChartBarSquareIcon, ComputerDesktopIcon, CurrencyBangladeshiIcon, PencilSquareIcon, PuzzlePieceIcon } from "@heroicons/react/16/solid";
 import { Squares2X2Icon } from "@heroicons/react/24/outline";
 import Navbar from "./Navbar";
-function AboutMe2() {
+function Aboutme2() {
   return (
     <div>
       <Navbar/>
@@ -147,4 +147,4 @@ function AboutMe2() {
   );
 }
 
-export default AboutMe2;
+export default Aboutme2;

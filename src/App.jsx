@@ -22,8 +22,8 @@ import Navbar from './components/Navbar.jsx'
 import Form from './components/Form.jsx';
 import Final from './components/Final.jsx';
 import Portfoe3 from "./components/Portfoe3.jsx"
-import AboutMe2 from './components/Aboutme2.jsx';
-import AboutMe3 from './components/Aboutme3.jsx';
+import Aboutme2 from './components/Aboutme2.jsx';
+import Aboutme3 from './components/Aboutme3.jsx';
 
 import ContactMe2 from './components/ContactMe2.jsx';
 import Works2 from './components/Works2.jsx';
@@ -59,8 +59,8 @@ function App() {
             <Route path="/Works3" element={<Works3 />} />
 
             <Route path="/Aboutme" element={<Aboutme />} />
-            <Route path="/Aboutme2" element={<AboutMe2 />} />
-            <Route path="/Aboutme3" element={<AboutMe3 />} />
+            <Route path="/Aboutme2" element={<Aboutme2 />} />
+            <Route path="/Aboutme3" element={<Aboutme3 />} />
             <Route path="/Lolaa" element={<Lolaa />} />
             <Route path="/Works" element={<Works />} />
             <Route path="/ContactMe" element={<ContactMe />} />
