@@ -12,7 +12,7 @@ function AboutMe2() {
         <div className="mt-8 flex gap-4 ">
         
           <div>
-            <div className="bg-white border-2 p-4 mx-6 border-black flex flex-col text-black rounded-lg">
+            <div className="bg-white border-2 p-3 mx-6 border-black flex flex-col text-black rounded-lg">
               <div className="text-2xl font-extrabold p-3">Hi There!</div>
               <div>
                 <p className="text-xl font-bold px-3">
