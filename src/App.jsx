@@ -42,7 +42,7 @@ function App() {
 
             <Route path="/Authentication" element={<Authentication />} />
             <Route path="/signup" element={<Signup />} />
-            <Route path="/About" element={<About />} />
+            <Route path="/About" elementt={<About />} />
             <Route path="/Contact" element={<Contact />} />
             <Route path="/ContactMe" element={<ContactMe />} />
             <Route path="/ContactMe2" element={<ContactMe2 />} />
