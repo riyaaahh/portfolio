@@ -28,21 +28,21 @@ const Header = () => {
                             <li className="text-center text-black rounded-md py-2 px-10 font-bold
                              hover:font-extrabold font-sans bg-green-200 border-2 border-black hover:bg-gray-100 hover:scale-105 duration-300"><a href="#">Home</a></li>
                         </Link>
-                        <li class="text-gray-300">
+                        <li className="text-gray-300">
                            
                         </li>
                         <Link to={"/About"}>
                             <li className="text-center text-black rounded-md py-2 px-10 font-bold
                              hover:font-extrabold font-sans bg-green-200 border-2 border-black hover:bg-gray-100 hover:scale-105 duration-300"><a href="#">About Us</a></li>
                         </Link>
-                        <li class="text-gray-300">
+                        <li className="text-gray-300">
                          
                         </li>
                         <Link to={"/Contact"}>
                             <li><button className="text-center text-black rounded-md py-2 px-10 font-bold
                              hover:font-extrabold font-sans bg-green-200 border-2 border-black hover:bg-gray-100 hover:scale-105 duration-300"><a href="#">Contact</a></button></li>
                         </Link>
-                        <li class="text-gray-300">
+                        <li className="text-gray-300">
                            
                         </li>
                         <Link to={"/Help"}>
@@ -58,14 +58,14 @@ const Header = () => {
                 </div>
                 {user && user?.email ? (
                     <div className="flex gap-2">
-                        <div class="pt-2" onClick={logoutUser}>
-                            <div class="block px-6 py-1 mb-2 leading-loose text-xs text-center  text-black font-semibold
+                        <div className="pt-2" onClick={logoutUser}>
+                            <div className="block px-6 py-1 mb-2 leading-loose text-xs text-center  text-black font-semibold
                                   bg-green-200 border-2
                                  border-black hover:bg-gray-100 rounded-xl transition-transform transform hover:scale-105" href="#">Logout</div>
                         </div>
-                        <div class="pt-2">
+                        <div className="pt-2">
                             <Link to={"/Authentication"}>
-                                <a class="block px-6 py-1 mb-2 leading-loose text-xs text-center  text-black font-semibold
+                                <a className="block px-6 py-1 mb-2 leading-loose text-xs text-center  text-black font-semibold
                                   bg-green-200 border-2
                                  border-black hover:bg-gray-100 rounded-xl transition-transform transform hover:scale-105" href="#">My Account</a>
                             </Link>
@@ -73,16 +73,16 @@ const Header = () => {
                     </div>
                 ) : (
                     <div className="flex gap-2">
-                        <div class="pt-2">
+                        <div className="pt-2">
                             <Link to={"/Authentication"}>
-                                <a class="block px-6 py-1 mb-2 leading-loose text-xs text-center  text-black font-semibold
+                                <a className="block px-6 py-1 mb-2 leading-loose text-xs text-center  text-black font-semibold
                                   bg-green-200 border-2
                                  border-black hover:bg-gray-100 rounded-xl transition-transform transform hover:scale-105" href="#">Login</a>
                             </Link>
                         </div>
-                        <div class="pt-2">
+                        <div className="pt-2">
                             <Link to={"/Signup"}>
-                                <a class="block px-6 py-1 mb-2 leading-loose text-xs text-center 
+                                <a className="block px-6 py-1 mb-2 leading-loose text-xs text-center 
                                  text-black font-semibold  bg-green-200 border-2 border-black
                                   hover:bg-gray-100 rounded-xl transition-transform transform hover:scale-105" href="#">Create Account</a>
                             </Link>

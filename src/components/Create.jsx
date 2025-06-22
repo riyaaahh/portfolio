@@ -21,16 +21,16 @@ function Create() {
     <div>
       <div className="bg-[#e7f0ff] h-screen w-screen items-center  flex flex-col p-8 ">
         <div className="flex flex-row gap-3 ">
-          <div class="max-w-lg mx-auto">
-            <div class="relative">
+          <div className="max-w-lg mx-auto">
+            <div className="relative">
               <input
                 type="text"
-                class="w-full pl-10 pr-16 py-2 border border-black bg-white text-gray-600 rounded-md focus:outline-none focus:border-primary"
+                className="w-full pl-10 pr-16 py-2 border border-black bg-white text-gray-600 rounded-md focus:outline-none focus:border-primary"
                 placeholder="Search..."
               />
-              <div class="absolute inset-y-0 left-0 flex items-center pl-3">
+              <div className="absolute inset-y-0 left-0 flex items-center pl-3">
                 <svg
-                  class="h-5 w-5 text-black"
+                  className="h-5 w-5 text-black"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -53,23 +53,23 @@ function Create() {
         <div className="gap-4 ">
           <div className="flex gap-4">
             <div
-              class="py-8 px-12 max-w-s m-4 bg-white rounded-xl shadow-xl space-y-2 border-2 border-black
+              className="py-8 px-12 max-w-s m-4 bg-white rounded-xl shadow-xl space-y-2 border-2 border-black
  sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 hover:scale-105 duration-300"
             >
               <img
-                class="block mx-auto h-24 rounded-full bg-green-300 sm:mx-0 sm:shrink-0"
+                className="block mx-auto h-24 rounded-full bg-green-300 sm:mx-0 sm:shrink-0"
                 src={Edwardtwo}
                 alt="Woman's Face"
               />
-              <div class="text-center space-y-2 sm:text-left">
-                <div class="space-y-0.5">
-                  <p class="text-lg text-black font-semibold">Edward John</p>
-                  <p class="text-green-500 font-medium">Graphic Designer</p>
+              <div className="text-center space-y-2 sm:text-left">
+                <div className="space-y-0.5">
+                  <p className="text-lg text-black font-semibold">Edward John</p>
+                  <p className="text-green-500 font-medium">Graphic Designer</p>
                 </div>
                 <Link to="/Portfoe1">
                   <button
                     type="submit"
-                    class="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
+                    className="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
                   >
                     Portfolio
                   </button>{" "}
@@ -77,23 +77,23 @@ function Create() {
               </div>
             </div>
             <div
-              class="py-8 px-12 max-w-s m-4 bg-white rounded-xl shadow-xl space-y-2 border-2 border-black
+              className="py-8 px-12 max-w-s m-4 bg-white rounded-xl shadow-xl space-y-2 border-2 border-black
  sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 hover:scale-105 duration-300"
             >
               <img
-                class="block mx-auto h-24 rounded-full bg-green-300 sm:mx-0 sm:shrink-0"
+                className="block mx-auto h-24 rounded-full bg-green-300 sm:mx-0 sm:shrink-0"
                 src={Marcustwo}
                 alt="Woman's Face"
               />
-              <div class="text-center space-y-2 px-3 sm:text-left">
-                <div class="space-y-0.5">
-                  <p class="text-lg text-black font-semibold">Marcus Baker </p>
-                  <p class="text-green-500 font-medium">UI/Ux Designer</p>
+              <div className="text-center space-y-2 px-3 sm:text-left">
+                <div className="space-y-0.5">
+                  <p className="text-lg text-black font-semibold">Marcus Baker </p>
+                  <p className="text-green-500 font-medium">UI/Ux Designer</p>
                 </div>
                 <Link to="/Portfoe2">
                   <button 
                     type="submit"
-                    class="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
+                    className="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
                   >
                     Portfolio
                   </button>{" "}
@@ -101,22 +101,22 @@ function Create() {
               </div>
             </div>
             
-            <div class="py-8 px-12 max-w-s m-4 bg-white rounded-xl shadow-xl space-y-2 border-2 border-black
+            <div className="py-8 px-12 max-w-s m-4 bg-white rounded-xl shadow-xl space-y-2 border-2 border-black
              sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 hover:scale-105 duration-300">
               <img
-                class="block mx-auto h-24 rounded-full bg-green-300 sm:mx-0 sm:shrink-0"
+                className="block mx-auto h-24 rounded-full bg-green-300 sm:mx-0 sm:shrink-0"
                 src={Tylatwo}
                 alt="Woman's Face"
               />
-              <div class="text-center space-y-2 sm:text-left">
-                <div class="space-y-0.5">
-                  <p class="text-lg text-black font-semibold">  Tyla</p>
-                  <p class="text-green-500 font-medium">Software Developer</p>
+              <div className="text-center space-y-2 sm:text-left">
+                <div className="space-y-0.5">
+                  <p className="text-lg text-black font-semibold">  Tyla</p>
+                  <p className="text-green-500 font-medium">Software Developer</p>
                 </div>
                 <Link to="/Portfoe3">
                   <button
                     type="submit"
-                    class="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
+                    className="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
                   >
                    Portfolio
                   </button>{" "}
@@ -125,68 +125,68 @@ function Create() {
             </div>
           </div>
           <div className="flex gap-4">
-            <div class="py-8 px-12 max-w-s m-4 bg-white rounded-xl shadow-xl space-y-2 border-2 border-black
+            <div className="py-8 px-12 max-w-s m-4 bg-white rounded-xl shadow-xl space-y-2 border-2 border-black
              sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 hover:scale-105 duration-300">
               <img
-                class="block mx-auto h-24 rounded-full bg-green-300 sm:mx-0 sm:shrink-0"
+                className="block mx-auto h-24 rounded-full bg-green-300 sm:mx-0 sm:shrink-0"
                 src={Lizzotwo}
                 alt="Woman's Face"
               />
-              <div class="text-center space-y-2 sm:text-left">
-                <div class="space-y-0.5">
-                  <p class="text-lg text-black font-semibold">Lizzo</p>
-                  <p class="text-green-500 font-medium">Graphic Designer</p>
+              <div className="text-center space-y-2 sm:text-left">
+                <div className="space-y-0.5">
+                  <p className="text-lg text-black font-semibold">Lizzo</p>
+                  <p className="text-green-500 font-medium">Graphic Designer</p>
                 </div>
                 <Link to="/Portfoe1">
                   <button
                     type="submit"
-                    class="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
+                    className="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
                   >
                     Portfolio
                   </button>{" "}
                 </Link>
               </div>
             </div>
-            <div class="py-8 px-12 max-w-s m-4 bg-white rounded-xl shadow-xl space-y-2 border-2 border-black
+            <div className="py-8 px-12 max-w-s m-4 bg-white rounded-xl shadow-xl space-y-2 border-2 border-black
              sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 hover:scale-105 duration-300">
               <img
-                class="block mx-auto h-24 rounded-full bg-green-300 sm:mx-0 sm:shrink-0"
+                className="block mx-auto h-24 rounded-full bg-green-300 sm:mx-0 sm:shrink-0"
                 src={Jeremiahtwo}
                 alt="Woman's Face"
               />
-              <div class="text-center space-y-2 sm:text-left">
-                <div class="space-y-0.5">
-                  <p class="text-lg text-black font-semibold">
+              <div className="text-center space-y-2 sm:text-left">
+                <div className="space-y-0.5">
+                  <p className="text-lg text-black font-semibold">
                     Jeremiah Fisher
                   </p>
-                  <p class="text-green-500 font-medium">Graphic Designer</p>
+                  <p className="text-green-500 font-medium">Graphic Designer</p>
                 </div>
                 <Link to="/Portfoe1">
                   <button
                     type="submit"
-                    class="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
+                    className="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
                   >
                     Portfolio
                   </button>{" "}
                 </Link>
               </div>
             </div>
-            <div class="py-8 px-12 max-w-s m-4 bg-white rounded-xl shadow-xl space-y-2 border-2 border-black
+            <div className="py-8 px-12 max-w-s m-4 bg-white rounded-xl shadow-xl space-y-2 border-2 border-black
              sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 hover:scale-105 duration-300">
               <img
-                class="block mx-auto h-24 rounded-full bg-green-300 sm:mx-0 sm:shrink-0"
+                className="block mx-auto h-24 rounded-full bg-green-300 sm:mx-0 sm:shrink-0"
                 src={Christwo}
                 alt="Woman's Face"
               />
-              <div class="text-center space-y-2 sm:text-left">
-                <div class="space-y-0.5">
-                  <p class="text-lg text-black font-semibold">Chris Bren</p>
-                  <p class="text-green-500 font-medium">Graphic Designer</p>
+              <div className="text-center space-y-2 sm:text-left">
+                <div className="space-y-0.5">
+                  <p className="text-lg text-black font-semibold">Chris Bren</p>
+                  <p className="text-green-500 font-medium">Graphic Designer</p>
                 </div>
                 <Link to="/Portfoe1">
                   <button
                     type="submit"
-                    class="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
+                    className="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
                   >
                     Portfolio
                   </button>{" "}
@@ -195,66 +195,66 @@ function Create() {
             </div>
           </div>
           <div className="flex gap-4">
-          <div class="py-8 px-14 max-w-s m-4 bg-white rounded-xl shadow-xl space-y-2 border-2 border-black
+          <div className="py-8 px-14 max-w-s m-4 bg-white rounded-xl shadow-xl space-y-2 border-2 border-black
             sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 hover:scale-105 duration-300">
               <img
-                class="block mx-auto h-24 rounded-full bg-green-300 sm:mx-0 sm:shrink-0"
+                className="block mx-auto h-24 rounded-full bg-green-300 sm:mx-0 sm:shrink-0"
                 src={Lola}
                 alt="Woman's Face"
               />
-              <div class="text-center space-y-2 sm:text-left">
-                <div class="space-y-0.5">
-                  <p class="text-lg text-black font-semibold">Lola Tung</p>
-                  <p class="text-green-500 font-medium">Graphic Designer</p>
+              <div className="text-center space-y-2 sm:text-left">
+                <div className="space-y-0.5">
+                  <p className="text-lg text-black font-semibold">Lola Tung</p>
+                  <p className="text-green-500 font-medium">Graphic Designer</p>
                 </div>
                 <Link to="/Lolaa">
                   <button
                     type="submit"
-                    class="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
+                    className="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
                   >
                     Portfolio
                   </button>{" "}
                 </Link>
               </div>
             </div>
-            <div class="py-8 px-12 max-w-s m-4 bg-white rounded-xl shadow-xl space-y-2 border-2 border-black
+            <div className="py-8 px-12 max-w-s m-4 bg-white rounded-xl shadow-xl space-y-2 border-2 border-black
              sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 hover:scale-105 duration-300">
               <img
-                class="block mx-auto h-24 rounded-full bg-green-300 sm:mx-0 sm:shrink-0"
+                className="block mx-auto h-24 rounded-full bg-green-300 sm:mx-0 sm:shrink-0"
                 src={Annatwo}
                 alt="Woman's Face"
               />
-              <div class="text-center space-y-2 sm:text-left">
-                <div class="space-y-0.5">
-                  <p class="text-lg text-black font-semibold">Anna Daniel</p>
-                  <p class="text-green-500 font-medium">Graphic Designer</p>
+              <div className="text-center space-y-2 sm:text-left">
+                <div className="space-y-0.5">
+                  <p className="text-lg text-black font-semibold">Anna Daniel</p>
+                  <p className="text-green-500 font-medium">Graphic Designer</p>
                 </div>
                 <Link to="/Portfoe1">
                   <button
                     type="submit"
-                    class="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
+                    className="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
                   >
                     Portfolio
                   </button>{" "}
                 </Link>
               </div>
             </div>
-            <div class="py-8 px-12 max-w-s m-4 bg-white rounded-xl shadow-xl space-y-2 border-2 border-black
+            <div className="py-8 px-12 max-w-s m-4 bg-white rounded-xl shadow-xl space-y-2 border-2 border-black
              sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 hover:scale-105 duration-300">
               <img
-                class="block mx-auto h-24 rounded-full bg-green-300 sm:mx-0 sm:shrink-0"
+                className="block mx-auto h-24 rounded-full bg-green-300 sm:mx-0 sm:shrink-0"
                 src={Conradtwo}
                 alt="Woman's Face"
               />
-              <div class="text-center space-y-2 sm:text-left">
-                <div class="space-y-0.5">
-                  <p class="text-lg text-black font-semibold">Conrad Fisher</p>
-                  <p class="text-green-500 font-medium">Graphic Designer</p>
+              <div className="text-center space-y-2 sm:text-left">
+                <div className="space-y-0.5">
+                  <p className="text-lg text-black font-semibold">Conrad Fisher</p>
+                  <p className="text-green-500 font-medium">Graphic Designer</p>
                 </div>
                 <Link to="/Portfoe1">
                   <button
                     type="submit"
-                    class="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
+                    className="inline-block rounded-lg bg-black px-5 py-2 mt-2 text-sm font-medium text-white"
                   >
                     Portfolio
                   </button>{" "}

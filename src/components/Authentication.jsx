@@ -62,32 +62,32 @@ function Authentication() {
     <div className='p-10 bg-green-200  '>
       <Toaster richColors  position="bottom-center"/>
       <div className='bg-white border-2 border-black rounded-md'>
-        <section class="  shadow-md rounded-md relative flex flex-wrap lg:h-screen lg:items-center">
-          <div class="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
-            <div class="mx-auto max-w-lg text-center">
-              <h1 class="text-2xl font-bold sm:text-3xl">Get started today!</h1>
+        <section className="  shadow-md rounded-md relative flex flex-wrap lg:h-screen lg:items-center">
+          <div className="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
+            <div className="mx-auto max-w-lg text-center">
+              <h1 className="text-2xl font-bold sm:text-3xl">Get started today!</h1>
 
-              <p class="mt-4 text-gray-500">
+              <p className="mt-4 text-gray-500">
                 Welcome! Login to your account to access personalized features, manage your settings, and enjoy an enhanced experience. Your journey continues with seamless access to exclusive content and services. Let's get started!
               </p>
             </div>
 
-            <form action="" class="mx-auto mb-0 mt-8 max-w-md space-y-4">
+            <form action="" className="mx-auto mb-0 mt-8 max-w-md space-y-4">
               <div>
-                <label for="email" class="sr-only">Email</label>
+                <label for="email" className="sr-only">Email</label>
 
-                <div class="relative">
+                <div className="relative">
                   <input
                     type="email"
-                    class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                    className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
                     placeholder="Enter email"
                     value={email} onChange={(e) => setEmail(e.target.value)}
                   />
 
-                  <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
+                  <span className="absolute inset-y-0 end-0 grid place-content-center px-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 text-gray-400"
+                      className="h-4 w-4 text-gray-400"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -104,20 +104,20 @@ function Authentication() {
               </div>
 
               <div>
-                <label for="password" class="sr-only">Password</label>
+                <label for="password" className="sr-only">Password</label>
 
-                <div class="relative">
+                <div className="relative">
                   <input
                     type="password"
-                    class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                    className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
                     placeholder="Enter password"
                     value={password} onChange={(e) => setPassword(e.target.value)}
                   />
 
-                  <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
+                  <span className="absolute inset-y-0 end-0 grid place-content-center px-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-4 w-4 text-gray-400"
+                      className="h-4 w-4 text-gray-400"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -139,18 +139,18 @@ function Authentication() {
                 </div>
               </div>
 
-              <div class="flex items-center justify-between">
+              <div className="flex items-center justify-between">
                 <Link to={'/signup'}>
 
-                  <p class="text-sm text-gray-500">
+                  <p className="text-sm text-gray-500">
                     No account?
-                    <a class="underline text-green-600 font-semibold" href="">Sign up</a>
+                    <a className="underline text-green-600 font-semibold" href="">Sign up</a>
                   </p>
                 </Link>
                 <button
                   onClick={(e) => loginWithUsernameAndPassword(e)}
                   type="submit"
-                  class="inline-block rounded-lg bg-black px-5 py-3 text-sm font-medium text-white"
+                  className="inline-block rounded-lg bg-black px-5 py-3 text-sm font-medium text-white"
                 >
                   Sign in
                 </button>
@@ -158,7 +158,7 @@ function Authentication() {
             </form>
           </div>
 
-          <div class="relative h-64 w-full sm:h-96 p-10 lg:h-full lg:w-1/2 pt-20">
+          <div className="relative h-64 w-full sm:h-96 p-10 lg:h-full lg:w-1/2 pt-20">
             <img className="m-4 mr-8 border border-black " src={Forlogin} alt="/" />
 
           </div>
